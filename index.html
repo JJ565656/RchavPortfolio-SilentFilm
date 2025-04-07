@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+  <head>
+    <meta charset="UTF-8">
+    <title>Personal Portfolio-Silent Film Project Page</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+   
+    
+    <style>
+    body{
+          background-color: #F5F1EA;
+          font-size: 16px;
+        }
+      
+      /**brand font guidelines**/      
+        
+        h1{
+          font-family: "Bitter", serif; 
+          font-size: 6.876em;
+          color: #3E3A39;
+          font-weight: 500;
+        }
+        
+         h2{
+          font-family: "Bitter", serif; 
+          font-size: 4.25em;
+          color: #3E3A39;
+        }
+        
+        h3{
+          font-family: "DM Sans", sans-serif; 
+          font-size: 4.25em;
+          color: #3E3A39;
+        }
+        
+         h4{
+          font-family: "Bitter", serif; 
+          font-size: 2.625em;
+          font-style: italic;
+          font-weight: 400;
+          color: #3E3A39;
+        }
+        
+        h5{
+          font-family: "DM Sans", sans-serif; 
+          font-size: 2.625em;
+          color: #3E3A39;
+        }
+        
+        h6{
+          font-family: "DM Sans", sans-serif; 
+          font-size: 1.625em;
+          color: #3E3A39;
+          font-weight: 500;
+        }
+        
+        p{
+           font-family: "DM Sans", sans-serif; 
+          font-size: 1.3em;
+          color: #3E3A39;
+        }
+        
+  /**menu bar**/
+        .menu-bar{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 0px 50px;
+        }
+        
+        .menu-bar img{
+          height: 75px;
+        }
+        
+        .nav-links {
+        display: flex;
+        gap: 30px;
+        }
+        
+        .nav-links a{
+          text-decoration: none;
+          color: #3E3A39;
+        }
+        
+        .nav-links a:hover {
+          color: #6A7E92;
+        }
+  /**header**/
+      
+      .header{
+        padding: 50px 0px;
+        text-align: center;
+        padding-bottom: 200px;
+      }
+      
+      .header h1,
+      .header h6 {
+        margin: 0px;
+        padding: 30px 0px;
+      }
+       
+       .header h1{
+         padding-top: 75px;
+       }
+      
+      .header h6 {
+        color: #6A7E92;
+        margin: 0px;
+        padding: 0px 190px;
+      }
+      
+      /**content**/
+ 
+
+      
+  .arcade-section {
+  background-color: #90B4D3; /* Vyka Lume */
+  padding: 4rem 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.arcade-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  max-width: 1200px;
+  width: 100%;
+  align-items: flex-start;
+}
+
+.arcade-video {
+  flex: 1 1 40%;
+  background-color: #3E3A39; /* Old Ink border box */
+  padding: 1rem;
+  border-radius: 12px;
+}
+
+.arcade-video-wrapper {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 ratio */
+}
+
+.arcade-video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.arcade-text {
+  flex: 1 1 55%;
+  color: #F5F1EA;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.arcade-text h2 {
+  font-family: 'Bitter', serif;
+  font-size: 3em;
+  margin-bottom: 0.5rem;
+  color: #F5F1EA;
+}
+
+.arcade-subtitle {
+  font-style: italic;
+  font-size: 1.1em;
+  color: #E3DBCC; /* Jakarta Dusk */
+  margin-bottom: 1.5rem;
+}
+
+.arcade-text p {
+  font-size: 1.1em;
+  line-height: 1.7;
+  margin-bottom: 1.25rem;
+}
+      
+      .logo-wrapper {
+  margin-top: 2rem;
+}
+
+.logo-wrapper img {
+  height: 70px;
+  width: auto;
+}
+
+
+
+
+    </style>
+  </head>
+  
+  <body>
+  
+  <!--Menu Bar-->
+      <div class="menu-bar">
+        <a href="https://jj565656.github.io/RchavPortfolio-landing/"> 
+          <img src="RChav Logo New.png" alt="RChav full logomark in old ink"> </a>
+        <div class="nav-links">
+        <h5><a href="https://jj565656.github.io/RchavPortfolio-about/">About</a></h5>
+        <h5><a href="https://jj565656.github.io/RchavPortfolio-projects/">Projects</a></h5>
+        <h5><a href="#contact">Contact</a></h5>
+    </div>   
+  </div>
+    
+    
+    <!--header-->
+    
+    <div class="header">
+      <h1>Arcade Bar Silent Film</h1> 
+      <h6>The only thing louder than the lights is the drama. This is chaos, turned silent.</h6>
+    </div>
+    
+    
+  
+      <!--content-->
+    <section class="arcade-section">
+  <div class="arcade-container">
+    
+    <!-- Video box -->
+    <div class="arcade-video">
+      <div class="arcade-video-wrapper">
+        <iframe 
+          src="https://www.youtube.com/embed/x1K3dOEudwE" 
+          frameborder="0" 
+          allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+
+    <!-- Text content -->
+    <div class="arcade-text">
+      <h2>Arcade Silent Film</h2>
+      <p class="arcade-subtitle"><em>The only thing louder than the lights is the drama. This is chaos, turned silent.</em></p>
+
+      <p>What happens when overstimulation gets the silent treatment? Arcade Silent Film reimagines the loudest room in the building — an arcade — as a scene straight out of the 1920s. It’s a contradiction in motion. Pixel flashes and power-ups clash with intertitles and grainy drama, all without a single sound. This piece leans into irony, nostalgia, and visual noise to explore how mood and movement can speak louder than audio. It’s a love letter to silent films, glitchy visuals, and the kind of cinematic tension that doesn’t need a soundtrack.</p>
+
+      <p>Filmed in a local arcade. Edited using Adobe Premiere Pro and After Effects. Styled with a 1920s silent film aesthetic including black and white grading, intertitles, jump cuts, dramatic pacing, and layered grain overlays.</p>
+      
+      <div class="logo-wrapper">
+        <img src="PREMIERE.svg.png" alt="Adobe Premiere Pro logo">
+      </div>
+      
+    </div>
+
+  </div>
+</section>
+
+
+      
+ 
+
+
+
+  
+  </body>
+</html>
